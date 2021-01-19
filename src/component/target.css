@@ -1,0 +1,54 @@
+.theTargets-container{
+    display: flex;
+    
+}
+
+
+.targets-first{
+    width: 50%;
+    background-color: rgb(202, 229, 240);
+}
+
+
+.targets-first h1{
+    padding: 15px 15px;
+    color: rgb(23, 141, 167);
+    font-weight: 700;
+}
+
+
+.targets-first p{
+    margin-top: 50px;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 15px;
+    color: rgb(8, 69, 122);}
+
+
+.targets-second{
+font-size: 18px;
+font-weight: 600;
+color: rgb(9, 85, 25);
+padding: 20px 55px;
+background-color: rgb(230, 252, 212);
+
+overflow-y: scroll;
+width: 1200px;
+height: 700px;
+}
+
+.targets-second li{
+padding-top: 30px;
+}
+.theTargets-container button {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 114, 114);
+    margin-bottom: 20px;
+}
+
+
+.theTargets-container button:hover {
+    background-color: rgb(184, 15, 15);
+}
